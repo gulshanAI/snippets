@@ -1,0 +1,33 @@
+{
+	"open comment and close": {
+		"prefix": "cmt",
+		"body": [
+		  "/* Open $1 */",
+		  "$2",
+		  "/* End $1 */"
+		],
+		"description": "open comment and close"
+	  },
+	  "position aboulute": {
+		"prefix": "pabs",
+		"body": [
+		  "position: absolute;"
+		],
+		"description": "open comment and close"
+	  },
+	  "fixed top center": {
+		"prefix": "fxtop",
+		"body": [
+		  "position: fixed;",
+		  "top: 50%;",
+		  "left: 50%;",
+		  "transform: translate(-50%, -50%);",
+		  "width: 100%;",
+		  "height: 100%;",
+		  "z-index: 1111;",
+		  "background: $1;"
+		],
+		"description": "fixed top center"
+	  }
+	  
+}
