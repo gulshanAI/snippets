@@ -1,0 +1,23 @@
+{
+	"console log": {
+		"prefix": "cls",
+		"body": [
+		  "console.log(\"$1\");"
+		],
+		"description": "console log variable"
+	},
+	"console log variable": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "console log variable"
+	},
+	"this": {
+		"prefix": "ths",
+		"body": [
+			"$(this)"
+		],
+		"description": "console log variable"
+	},
+}
