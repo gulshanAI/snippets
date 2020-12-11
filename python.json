@@ -1,0 +1,37 @@
+{
+	"print": {
+		"prefix": "pr",
+		"body": [
+		  "print($1)"
+		],
+		"description": "print"
+	},
+	"print string": {
+		"prefix": "prs",
+		"body": [
+		  "print(\"$1\")"
+		],
+		"description": "print string"
+	},
+	"self": {
+		"prefix": "sl",
+		"body": [
+		  "self.$1"
+		],
+		"description": "self"
+	},
+	"null false blank false": {
+		"prefix": "nf",
+		"body": [
+		  "blank=False, null=False"
+		],
+		"description": "null false blank false"
+	},
+	"null True blank true": {
+		"prefix": "nt",
+		"body": [
+		  "blank=True, null=True"
+		],
+		"description": "null True blank true"
+	},
+}
