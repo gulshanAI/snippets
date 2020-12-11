@@ -1,0 +1,113 @@
+{
+	"php open": {
+		"prefix": "ppp",
+		"body": [
+		  "<?php",
+		  "$1",
+		  "?>"
+		],
+		"description": "php open"
+	  },
+	  "php echo ": {
+		"prefix": "peh",
+		"body": [
+		  "<?= $1; ?>"
+		],
+		"description": "php echo "
+	  },
+	  "class": {
+		"prefix": "cl",
+		"body": [
+		  "<div class=\"$1\">",
+		  "    $2",
+		  "</div>"
+		],
+		"description": "class"
+	  },
+	  "static open": {
+		"prefix": "jsto",
+		"body": [
+		  "{% static '"
+		],
+		"description": "static open"
+	  },
+	  "static close": {
+		"prefix": "jstc",
+		"body": [
+		  "' %}"
+		],
+		"description": "static open"
+	  },
+	  "static django": {
+		"prefix": "jstd",
+		"body": [
+		  "{% static '$1' %}"
+		],
+		"description": "static django"
+	  },
+	  "jinja Block": {
+		"prefix": "jblk",
+		"body": [
+		  "{% block $1 %}",
+		  "{% endblock $1 %}"
+		],
+		"description": "jinja Block"
+	  },
+	  "jinja url": {
+		"prefix": "jurl",
+		"body": [
+		  "{% url '$1' %}"
+		],
+		"description": "jinja url"
+	  },
+	  "csrf token": {
+		"prefix": "jcsrf",
+		"body": [
+		  "{% csrf_token %}"
+		],
+		"description": "csrf token"
+	  },
+	  "for loop": {
+		"prefix": "jfor",
+		"body": [
+		  "{% for $1 in $2 %}",
+		  "  $3",
+		  "{% endfor %}"
+		],
+		"description": "for loop"
+	  },
+	  "if else": {
+		"prefix": "jifl",
+		"body": [
+		  "{% if $1 %}",
+		  "  $2",
+		  "{% else %}",
+		  "  $3",
+		  "{% endif %}"
+		],
+		"description": "if else"
+	  },
+	  "if": {
+		"prefix": "jif",
+		"body": [
+		  "{% if $1 %}",
+		  "  $2",
+		  "{% endif %}"
+		],
+		"description": "if"
+	  },
+	  "jinja open close": {
+		"prefix": "%",
+		"body": [
+		  "{% $1 %}"
+		],
+		"description": "jinja open close"
+	  },
+	  "open jinja var": {
+		"prefix": "jop",
+		"body": [
+		  "{{ $1 }}"
+		],
+		"description": "open jinja var"
+	  }
+}
