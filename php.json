@@ -1,0 +1,46 @@
+{
+	"die string": {
+		"prefix": "di",
+		"body": [
+		  "die(\"$1\");"
+		],
+		"description": "die string"
+	},
+	"die variable": {
+		"prefix": "dv",
+		"body": [
+		  "die($$1);"
+		],
+		"description": "die variable"
+	},
+	"echo pre": {
+	"prefix": "epr",
+	"body": [
+		"echo \"<pre>\";",
+		"$1",
+		"echo \"</pre>\";"
+	],
+	"description": "echo pre"
+	},
+	"print variable": {
+		"prefix": "pr",
+		"body": [
+		  "print_r($$1);"
+		],
+		"description": "print variable"
+	  },
+	  "echo String": {
+		"prefix": "es",
+		"body": [
+		  "echo \"$1\";"
+		],
+		"description": "echo String"
+	  },
+	  "echo variable": {
+		"prefix": "ev",
+		"body": [
+		  "echo $$1;"
+		],
+		"description": "echo variable"
+	  }
+}
